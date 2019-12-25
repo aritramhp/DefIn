@@ -1,6 +1,6 @@
-Deformity Index - a python based program for deriving the phylogenetic tree from the 
-genomic sequence data of different species based on the graphical representation of 
-the sequences.
+DefIn - a python based program for computing the Deformity Index of a 
+phylogenetic tree based on either partial or complete knowledge of the 
+relationships among the species.
 
  Copyright 2019 Aritra Mahapatra and Jayanta Mukherjee.
  All rights reserved.
