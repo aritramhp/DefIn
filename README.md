@@ -22,8 +22,11 @@ We recommend to verify the installed package list in the `diEnv` by executing `c
 DefIn can only be executed through the command prompt. It is necessary to make all the python file executable before running the program (use `chmod +x *.py`). The command to execute the DefIn from the command prompt is as `./DefIn.py` with the command line arguments. The options are as follows,
 
 `-i`	Mention the file that contains the target tree (in newick format). Please refer to the `TargetTree.nwk` in the `Sample_Input/` directory for the detail format of the file.
+
 `-t`	This is a boolean option. If this option is provided then the program will consider the reference tree mentioned by the option `-r`, else the program will consider the list of clades mentioned by the option `-c`. For further detail please refer to option `-c` and `-r`.
+
 `-c`	Mention the file that contains the list of clades. The clade is represented as the list of species separated by a comma. Each line contains a single clade. Please refer to the `Clades.txt` in the `Sample_Input/` directory for the detail format of the file.
+
 `-r`	Mention the file that contains the reference tree (in newick format). The reference tree can be both resolved (binary) or unresolved. Please refer to the `RefTree.nwk` in the `Sample_Input/` directory for the detail format of the file.
 
 
