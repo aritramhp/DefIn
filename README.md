@@ -1,6 +1,6 @@
 ## About DefIn
 
-DefIn is a python based program for computing the Deformity Index of a phylogenetic tree based on either partial or complete knowledge of the relationships among the species. 
+__`DefIn`__ is a python based program for computing the Deformity Index of a phylogenetic tree based on either partial or complete knowledge of the relationships among the species. 
 
 
 ## Required packages
@@ -25,22 +25,22 @@ We recommend to verify the installed package list in the `diEnv` by executing `c
 
 DefIn can only be executed through the command prompt. It is necessary to make all the python file executable before running the program (use `chmod +x *.py`). The command to execute the DefIn from the command prompt is as `./DefIn.py` with the command line arguments. The options are as follows,
 
-`-i`	Mention the file that contains the target tree (in newick format). Please refer to the `TargetTree.nwk` in the `Sample_Input/` directory for the detail format of the file.
+- `-i`	Mention the file that contains the target tree (in NEWICK format). Please refer to the _`Sample_Input/TargetTree.nwk`_ for the detail format of the file.
 
-`-t`	This is a boolean option. If this option is provided then the program will consider the reference tree mentioned by the option `-r`, else the program will consider the list of clades mentioned by the option `-c`. For further detail please refer to option `-c` and `-r`.
+- `-t`	This is a boolean option. If this option is provided then the program will consider the reference tree mentioned by the option `-r`, else the program will consider the list of clades mentioned by the option `-c`. For further detail please refer to option `-c` and `-r`.
 
-`-c`	Mention the file that contains the list of clades. The clade is represented as the list of species separated by a comma. Each line contains a single clade. Please refer to the `Clades.txt` in the `Sample_Input/` directory for the detail format of the file.
+- `-c`	Mention the file that contains the list of clades. The clade is represented as the list of species separated by a comma. Each line contains a single clade. Please refer to the _`Sample_Input/Clades.txt`_ for the detail format of the file.
 
-`-r`	Mention the file that contains the reference tree (in newick format). The reference tree can be both resolved (binary) or unresolved. Please refer to the `RefTree.nwk` in the `Sample_Input/` directory for the detail format of the file.
+- `-r`	Mention the file that contains the reference tree (in NEWICK format). The reference tree can be both resolved (binary) or unresolved. Please refer to the _`Sample_Input/RefTree.nwk`_ for the detail format of the file.
 
 
 ## Execution of DefIn
 
-`./DefIn.py -i `__[target tree]__` [ -c | [ -r `[reference tree]` -t ] ]`
+`./DefIn.py -i [target tree] [ -c | [ -r [reference tree] -t ] ]`
 
 - Minimal command:
 
-`./DefIn.py -i `[target_tree]
+`./DefIn.py -i [target_tree]`
 
 In the minimal command, the script considers `Species_Class.py` placed in the same directory. Please refer to the `Species_Class.py` for the detail format of the file. 
 
