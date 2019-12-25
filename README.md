@@ -36,7 +36,7 @@ DefIn can only be executed through the command prompt. It is necessary to make a
 
 ## Execution of DefIn
 
-`./DefIn.py -i `[target tree]` [ -c | [ -r `[reference tree]` -t ]`
+`./DefIn.py -i `[target tree]` [ -c | [ -r `[reference tree]` -t ] ]`
 
 - Minimal command:
 
